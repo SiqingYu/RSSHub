@@ -25,10 +25,10 @@ importers:
         version: 4.2.0
       '@hono/node-server':
         specifier: 1.13.8
-        version: 1.13.8(hono@4.7.11)
+        version: 1.13.8(hono@4.8.3)
       '@hono/zod-openapi':
         specifier: 0.18.4
-        version: 0.18.4(hono@4.7.11)(zod@3.24.4)
+        version: 0.18.4(hono@4.8.3)(zod@3.24.4)
       '@notionhq/client':
         specifier: 2.2.17
         version: 2.2.17
@@ -61,7 +61,7 @@ importers:
         version: 0.0.25
       '@scalar/hono-api-reference':
         specifier: 0.5.184
-        version: 0.5.184(hono@4.7.11)
+        version: 0.5.184(hono@4.8.3)
       '@sentry/node':
         specifier: 9.1.0
         version: 9.1.0
@@ -120,8 +120,8 @@ importers:
         specifier: 144.0.0
         version: 144.0.0
       hono:
-        specifier: 4.7.11
-        version: 4.7.11
+        specifier: 4.8.3
+        version: 4.8.3
       html-to-text:
         specifier: 9.0.5
         version: 9.0.5
@@ -3810,8 +3810,8 @@ packages:
   hmacsha1@1.0.0:
     resolution: {integrity: sha512-4FP6J0oI8jqb6gLLl9tSwVdosWJ/AKSGJ+HwYf6Ixe4MUcEkst4uWzpVQrNOCin0fzTRQbXV8ePheU8WiiDYBw==}
 
-  hono@4.7.11:
-    resolution: {integrity: sha512-rv0JMwC0KALbbmwJDEnxvQCeJh+xbS3KEWW5PC9cMJ08Ur9xgatI0HmtgYZfOdOSOeYsp5LO2cOhdI8cLEbDEQ==}
+  hono@4.8.3:
+    resolution: {integrity: sha512-jYZ6ZtfWjzBdh8H/0CIFfCBHaFL75k+KMzaM177hrWWm2TWL39YMYaJgB74uK/niRc866NMlH9B8uCvIo284WQ==}
     engines: {node: '>=16.9.0'}
 
   hookable@5.5.3:
@@ -4255,9 +4255,6 @@ packages:
   libbase64@1.3.0:
     resolution: {integrity: sha512-GgOXd0Eo6phYgh0DJtjQ2tO8dc0IVINtZJeARPeiIJqge+HdsWSuaDTe8ztQ7j/cONByDZ3zeB325AHiv5O0dg==}
 
-  libmime@5.3.6:
-    resolution: {integrity: sha512-j9mBC7eiqi6fgBPAGvKCXJKJSIASanYF4EeA4iBzSG0HxQxmXnR3KbyWqTn4CwsKSebqCv2f5XZfAO6sKzgvwA==}
-
   libmime@5.3.7:
     resolution: {integrity: sha512-FlDb3Wtha8P01kTL3P9M+ZDNDWPKPmKHWaU/cG/lg5pfuAwdflVpZE+wm9m7pKmC5ww6s+zTxBKS1p6yl3KpSw==}
 
@@ -4391,9 +4388,6 @@ packages:
 
   mailparser@3.7.4:
     resolution: {integrity: sha512-Beh4yyR4jLq3CZZ32asajByrXnW8dLyKCAQD3WvtTiBnMtFWhxO+wa93F6sJNjDmfjxXs4NRNjw3XAGLqZR3Vg==}
-
-  mailsplit@5.4.3:
-    resolution: {integrity: sha512-PFV0BBh4Tv7Omui5FtXXVtN4ExAxIi8Yvmb9JgBz+J6Hnnrv/YYXLlKKudLhXwd3/qWEATOslRsnzVCWDeCnmQ==}
 
   mailsplit@5.4.5:
     resolution: {integrity: sha512-oMfhmvclR689IIaQmIcR5nODnZRRVwAKtqFT407TIvmhX2OLUBnshUTcxzQBt3+96sZVDud9NfSe1NxAkUNXEQ==}
@@ -4681,10 +4675,6 @@ packages:
 
   node-releases@2.0.19:
     resolution: {integrity: sha512-xxOWJsBKtzAq7DY0J+DTzuz58K8e7sJbdgwkbMWQe8UYB6ekmsQ45q0M/tJDsGaZmbC+l7n57UV8Hl5tHxO9uw==}
-
-  nodemailer@7.0.3:
-    resolution: {integrity: sha512-Ajq6Sz1x7cIK3pN6KesGTah+1gnwMnx5gKl3piQlQQE/PwyJ4Mbc8is2psWYxK3RJTVeqsDaCv8ZzXLCDHMTZw==}
-    engines: {node: '>=6.0.0'}
 
   nodemailer@7.0.4:
     resolution: {integrity: sha512-9O00Vh89/Ld2EcVCqJ/etd7u20UhME0f/NToPfArwPEe1Don1zy4mAIz6ariRr7mJ2RDxtaDzN0WJVdVXPtZaw==}
@@ -7261,20 +7251,20 @@ snapshots:
       '@eslint/core': 0.10.0
       levn: 0.4.1
 
-  '@hono/node-server@1.13.8(hono@4.7.11)':
+  '@hono/node-server@1.13.8(hono@4.8.3)':
     dependencies:
-      hono: 4.7.11
+      hono: 4.8.3
 
-  '@hono/zod-openapi@0.18.4(hono@4.7.11)(zod@3.24.4)':
+  '@hono/zod-openapi@0.18.4(hono@4.8.3)(zod@3.24.4)':
     dependencies:
       '@asteasolutions/zod-to-openapi': 7.3.0(zod@3.24.4)
-      '@hono/zod-validator': 0.4.3(hono@4.7.11)(zod@3.24.4)
-      hono: 4.7.11
+      '@hono/zod-validator': 0.4.3(hono@4.8.3)(zod@3.24.4)
+      hono: 4.8.3
       zod: 3.24.4
 
-  '@hono/zod-validator@0.4.3(hono@4.7.11)(zod@3.24.4)':
+  '@hono/zod-validator@0.4.3(hono@4.8.3)(zod@3.24.4)':
     dependencies:
-      hono: 4.7.11
+      hono: 4.8.3
       zod: 3.24.4
 
   '@humanfs/core@0.19.1': {}
@@ -7982,10 +7972,10 @@ snapshots:
     dependencies:
       '@scalar/types': 0.0.40
 
-  '@scalar/hono-api-reference@0.5.184(hono@4.7.11)':
+  '@scalar/hono-api-reference@0.5.184(hono@4.8.3)':
     dependencies:
       '@scalar/core': 0.1.1
-      hono: 4.7.11
+      hono: 4.8.3
 
   '@scalar/openapi-types@0.1.9': {}
 
@@ -9997,7 +9987,7 @@ snapshots:
 
   hmacsha1@1.0.0: {}
 
-  hono@4.7.11: {}
+  hono@4.8.3: {}
 
   hookable@5.5.3: {}
 
@@ -10480,13 +10470,6 @@ snapshots:
 
   libbase64@1.3.0: {}
 
-  libmime@5.3.6:
-    dependencies:
-      encoding-japanese: 2.2.0
-      iconv-lite: 0.6.3
-      libbase64: 1.3.0
-      libqp: 2.1.1
-
   libmime@5.3.7:
     dependencies:
       encoding-japanese: 2.2.0
@@ -10632,12 +10615,6 @@ snapshots:
       nodemailer: 7.0.4
       punycode.js: 2.3.1
       tlds: 1.259.0
-
-  mailsplit@5.4.3:
-    dependencies:
-      libbase64: 1.3.0
-      libmime: 5.3.6
-      libqp: 2.1.1
 
   mailsplit@5.4.5:
     dependencies:
@@ -10979,8 +10956,6 @@ snapshots:
       - utf-8-validate
 
   node-releases@2.0.19: {}
-
-  nodemailer@7.0.3: {}
 
   nodemailer@7.0.4: {}
 
